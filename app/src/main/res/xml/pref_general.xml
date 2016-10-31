@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="Location"
+        android:key="pref_location_key"
+        android:defaultValue="pref_location_default_value"
+        android:singleLine="true"
+        android:inputType="text"/>
+
+</PreferenceScreen>
